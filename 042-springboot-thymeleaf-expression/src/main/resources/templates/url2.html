@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript" th:src="@{/js/jquery-1.7.2.min.js}"></script>
+<script type="text/javascript">
+    $(function (){
+        alert("----------");
+        alert($("username").val());
+
+    })
+</script>
+<input type="text" value="1111" id="username">
+<img th:src="@{/image/001.jpg}">
+</body>
+</html>
